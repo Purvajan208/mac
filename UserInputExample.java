@@ -19,4 +19,9 @@ public class UserInputExample {
 
         // Displaying the inputs
         System.out.println("\nHello, " + name + "!");
-        Syst
+        System.out.println("You are " + age + " years old and " + height + " cm tall.");
+
+        // Closing scanner
+        scanner.close();
+    }
+}
